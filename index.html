@@ -12,6 +12,18 @@
     <h1>"Classical Music"</h1>
     <img src="Images/Banner.jpg">
 </header>
+
+<section class="horizontal-flex">
+     <article>
+         <h2>Kiedyś</h2>
+         <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem laudantium consectetur itaque minima! Dolores pariatur sint tenetur, perferendis libero itaque non ratione natus? Laudantium, ut natus neque beatae nisi, veritatis molestiae dolor error qui iste quis velit dignissimos ex sequi. Laboriosam quasi quaerat facilis. Error iusto quidem quis maiores asperiores quasi praesentium nihil aspernatur dolor? Consectetur dicta sequi libero culpa labore fugiat ipsum. Expedita assumenda ut laborum quaerat suscipit qui voluptate iusto impedit eveniet facere earum exercitationem architecto, nam, obcaecati corrupti quisquam dolorem, doloremque cumque. Aut quae possimus odio nesciunt consequuntur amet consequatur, quisquam numquam quidem qui est explicabo!</label>
+     </article>
+
+     <article>
+         <h3>Dziś</h3>
+         <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic nesciunt quia aut, itaque possimus sint cum saepe error sapiente esse repellendus rerum, totam aliquid sequi dolore eius quaerat neque distinctio officia optio. Exercitationem provident amet illo velit magnam consequuntur ea corporis aliquid error aperiam. Asperiores illum deserunt minima repudiandae velit vel similique ad voluptas, ducimus possimus quisquam omnis beatae earum atque porro debitis sint, ut labore suscipit maiores, eos assumenda? Deserunt recusandae quibusdam perferendis. Suscipit facilis delectus hic error! Neque iusto esse ipsam iure accusamus animi aperiam consectetur quis vel. Fugiat saepe deserunt doloremque explicabo necessitatibus quo possimus ad aliquam.</label>
+     </article>
+ </section>
      <table>
     <thead>
     <th colspan="3">Elementy Liniowe</th>
@@ -127,7 +139,7 @@
 </tbody>
 </table>
 <br><br><br><br>
-<table>
+<table id="table">
   <thead>
   <th colspan="3">Elementy Blokowe</th>
  <tr>
@@ -239,6 +251,125 @@
  </tr>
 </tbody>
 </table>
-    
+
+<section>
+     <h4>Lista spraw</h4>
+     <ol>
+         <li>
+             <label>Nauka</label>
+             <ul>
+                 <li>Codziennie</li>
+                 <li>Bez weekendów</li>
+             </ul>
+         </li>
+         <li>
+             <label>Zakupy</label>
+             <ul class="dots">
+                 <li>Czwartek</li>
+                 <li>Sobota</li>
+             </ul>
+         </li>
+         <li>
+             <label>Sprzątanie</label>
+             <ol class="diffnumber">
+                 <li>Według potrzeby</li>
+                 <li>Sobota</li>
+             </ol>
+         </li>
+     </ol>
+ </section>
+
+
+     <a href="#table">tabela</a>
+
+<!--  cellspacing="0" -->
+ <table class="tabletowar">
+     <tr>
+         <td colspan="7">Zamówienia</td>
+     </tr>
+     <tr>
+         <th rowspan="2">id</th>
+         <th rowspan="2">towar</th>
+         <th rowspan="2">ilość</th>
+         <th colspan="2">cena za szt. (zł)</th>
+         <th colspan="2">suma (zł)</th>
+     </tr>
+     <tr>
+         <td>NETTO</td>
+         <td>BRUTTO</td>
+         <td>NETTO</td>
+         <td>BRUTTO</td>
+     </tr>
+     <tr>
+         <td>1</td>
+         <td>SPODNIE</td>
+         <td>23</td>
+         <td>60</td>
+         <td>73.8</td>
+         <td>1380</td>
+         <td>1687.4</td>
+     </tr>
+     <tr>
+         <td>2</td>
+         <td>KOSZULA</td>
+         <td>17</td>
+         <td>40</td>
+         <td>49.2</td>
+         <td>680</td>
+         <td>836.4</td>
+     </tr>
+     <tr>
+         <td>3</td>
+         <td>DRESY</td>
+         <td>30</td>
+         <td>60</td>
+         <td>73.8</td>
+         <td>1800</td>
+         <td>221.4</td>
+     </tr>
+     <tr>
+         <td>4</td>
+         <td>SPODNIE</td>
+         <td>12</td>
+         <td>60</td>
+         <td>73.8</td>
+         <td>720</td>
+         <td>885.6</td>
+     </tr>
+ </table>
+
+
+ <h2>Formularz kontaktowy</h2>
+ <form method="POST" action="">
+     <textarea></textarea><br>
+     <label>NAME</label><br>
+         <input type="text" name="name" required placeholder="Name"><br>
+         <label>SURNAME</label><br>
+         <input type="text" name="surname" required placeholder="Surname" maxlength="119"><br>
+
+
+     <label>Date of Birth</label><br>
+     <input type="date" name="birth-date">
+     <br>
+
+     <input type="submit">
+ </form>
+
+ <ul class="nthtest">
+     <li>a</li>
+     <li>b</li>
+     <li>c</li>
+     <li>d</li>
+     <li>e</li>
+     <li>f</li>
+ </ul>
+
+
+<footer>
+<label>Mateusz Jonecko</label>
+
+<a href="mailto:MateuszTheBest2@gmail.com">Napisz e-maila</a>
+</footer>
+
 </body>
 </html>

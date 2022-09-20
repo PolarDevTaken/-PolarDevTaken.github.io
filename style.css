@@ -5,4 +5,30 @@ body{
 
 table, th, td{
     border: 2px solid;
+    text-align: center;
 }
+
+
+.horizontal-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.tabletowar{
+    border: 2px black solid;
+    background-color: greenyellow;
+}
+
+.diffnumber{
+    list-style-type: upper-roman;
+}
+
+.dots{
+    list-style-type: disc;
+}
+
+.nthtest > li:nth-child(2n){
+    color: red;
+}
+
+
