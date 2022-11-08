@@ -1,34 +1,46 @@
-body{
+
+
+body {
     font-family: Calibri;
+    background-color: rgb(6, 131, 255);
+    flex: 1;
+    font-size: 40px;
 }
 
-
-table, th, td{
-    border: 2px solid;
-    text-align: center;
-}
-
-
-.horizontal-flex {
+header {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
 }
 
-.tabletowar{
-    border: 2px black solid;
-    background-color: greenyellow;
+.container {
+    display: flex;
+    justify-content: center;
 }
 
-.diffnumber{
-    list-style-type: upper-roman;
+.audio {
+    border: black solid 1px;
+    color:white;
+    display: flex;
+    background-color: rgb(140, 1, 1);
+    width: 500px;
+    height: 400px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.dots{
-    list-style-type: disc;
+footer {
+    font-size: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 251, 248);
 }
 
-.nthtest > li:nth-child(2n){
-    color: red;
+.desc{
+    border: black solid 2px;
+    background-color: rgb(1, 212, 212);
+    width:1100px;
+    padding-left: 60px;
 }
-
-
